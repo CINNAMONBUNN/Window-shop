@@ -1,6 +1,8 @@
 * {
     font-family: 'San Francisco Pro Display Thin', sans-serif;
     box-sizing: border-box;
+    font-weight: 500;
+    font-size: 1rem;
 }
 
 a {
@@ -13,4 +15,16 @@ html {
 
 body {
     overflow-x: hidden;
+    background: #fff;
+}
+
+.logo {
+    width: 145px;
+    height: 70px;
+    background: #000;
+    margin-right: 12px;
+}
+
+.nav-link {
+    margin-left: 38px;
 }
