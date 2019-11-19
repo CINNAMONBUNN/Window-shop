@@ -61,3 +61,35 @@ body {
 .slider-text-btn span {
     font-size: 0.9375rem;
 }
+
+.windows {
+    padding-top: 100px;
+}
+
+.windows-text {
+    max-width: 958px;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 1.125rem;
+}
+.windows-container {
+    padding-top: 60px;
+}
+.windows-item-wrapper {
+    margin-bottom: 80px;
+}
+
+.windows-item {
+    margin-bottom: 80px;
+}
+.window-item-properties p{
+    font-size: 0.9375rem;
+    color: #454545;
+}
+.windows-price {
+    font-size: 1.1875rem;
+    color: #101014;
+}
+.text-red {
+    color: red;
+}
