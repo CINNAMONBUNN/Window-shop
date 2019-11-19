@@ -66,7 +66,7 @@ body {
     padding-top: 100px;
 }
 
-.windows-text {
+.windows-text, {
     max-width: 958px;
     margin-top: 15px;
     text-align: center;
@@ -92,4 +92,43 @@ body {
 }
 .text-red {
     color: red;
+}
+.callback-item-img img {
+    width: 100%;
+}
+.callback-item-form {
+    padding: 55px 135px;
+    background: #F5F5F5;
+}
+.callback-caption {
+    color: #101014;
+    font-size: 2.3rem;
+    margin-bottom: 0;
+}
+.callback-text {
+    font-size: 1.125rem;
+    margin-bottom: 30px;
+}
+
+.callback-item-form input {
+    border: none;
+    width: 325px;
+    height: 50px; 
+    background: #DBD7D7;
+    border-radius: 3px;
+    padding: 15px 20px; 
+    margin-bottom: 20px;
+}
+
+.callback-btn {
+    font-weight: 600;
+    color: #fff;
+    width: 165px;
+    height: 50px;
+    background: #BA1117;
+    border-radius: 3px;
+}
+
+.callback-btn:hover {
+    color: #fff;
 }
