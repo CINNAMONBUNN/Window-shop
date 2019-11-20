@@ -66,7 +66,7 @@ body {
     padding-top: 100px;
 }
 
-.windows-text, {
+.windows-text {
     max-width: 958px;
     margin-top: 15px;
     text-align: center;
@@ -130,5 +130,46 @@ body {
 }
 
 .callback-btn:hover {
+    color: #BA1117;
+    background: #fff;
+    border: 2px solid #BA1117;
+}
+
+
+
+.offers {
+    padding: 50px 150px 100px 150px;
+}
+.offers-item-wrapper {
+    max-width: 1300px;
+}
+.offers-item {
+    border: 0;
+    width: 263px;
+    text-align: center;
+}
+.offers-caption {
+    text-align: center;
+    margin-bottom: 60px;
+}
+.offers-item img {
+    width: 263px;
+    height: 263px;
+}
+.offers-card-text {
+    color: #454545;
+    font-size: 1rem;
+}
+.offers-btn {
+    margin-top: 20px;
+    font-weight: 600;
+    width: 215px;
+    height: 55px;
+    color: #BA1117;
+    border: 2px solid #BA1117;
+    padding: 15px 40px;
+}
+.offers-btn:hover {
+    background: #BA1117;
     color: #fff;
 }
