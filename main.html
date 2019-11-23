@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Окна</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="fonts/SFUIDisplay-Thin/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style-bs4.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" type="image/png" href="#" />
@@ -50,13 +50,13 @@
             </div>
         </nav>
     </section>
-    <section class="headerr">
+    <section class="header">
         <div class="col-12 p-0 header-item-slider m-0">
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                <div class="slider-text">
-                    <h3>Пластиковые окна от производителя в Москве</h3>
+                <div class="slider-text d-flex justify-content-center align-items-center flex-column">
+                    <h1 class="header-caption">Пластиковые окна от производителя в Москве</h1>
                     <button class="d-flex justify-content-center align-items-center slider-text-btn btn">
-                        <span class="font-weight-bold">Обратный звонок</span>
+                        <span>Обратный звонок</span>
                     </button>
                 </div>
                 <ol class="carousel-indicators justify-content-start">
@@ -66,7 +66,7 @@
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="img/slider1.png" class="d-block" alt="slider">
+                        <img src="img/slider1(v.1).png" class="d-block" alt="slider">
                     </div>
                     <div class="carousel-item">
                         <img src="img/slider2.png" class="d-block" alt="slider">
@@ -222,45 +222,94 @@
     </section>
     <section class="offers d-flex flex-column align-items-center">
         <h2 class="offers-caption">Наши акции и предложения</h2>
-            <div class="offers-item-wrapper row w-100 justify-content-between">
-                <div class="col p-0 d-flex flex-column align-items-center">
-                    <div class="card offers-item">
-                        <img src="img/offers.jpg" class="card-img-top" alt="Сушка">
-                        <div class="card-body">
-                            <h5 class="card-title">Сушка в подарок</h5>
-                            <p class="offers-card-text">Скидка 30% на все профильные окна в честь осеннего сезона</p>
-                        </div>
+        <div class="offers-item-wrapper row w-100 justify-content-between">
+            <div class="col p-0 d-flex flex-column align-items-center">
+                <div class="card offers-item">
+                    <img src="img/offers1.png" class="card-img-top" alt="Сушка">
+                    <div class="card-body">
+                        <h5 class="card-title">Сушка в подарок</h5>
+                        <p class="offers-card-text">Скидка 30% на все профильные окна в честь осеннего сезона</p>
                     </div>
                 </div>
-                <div class="col p-0 d-flex flex-column align-items-center">
-                    <div class="card offers-item">
-                        <img src="img/offers.jpg" class="card-img-top" alt="Сушка">
-                        <div class="card-body">
-                            <h5 class="card-title">Сушка в подарок</h5>
-                            <p class="offers-card-text">Скидка 30% на все профильные окна в честь осеннего сезона</p>
-                        </div>
-                    </div>
-                </div>   
-                <div class="col p-0 d-flex flex-column align-items-center">
-                    <div class="card offers-item">
-                        <img src="img/offers.jpg" class="card-img-top" alt="Сушка">
-                        <div class="card-body">
-                            <h5 class="card-title">Сушка в подарок</h5>
-                            <p class="offers-card-text">Скидка 30% на все профильные окна в честь осеннего сезона</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col p-0 d-flex flex-column align-items-center">
-                    <div class="card offers-item">
-                        <img src="img/offers.jpg" class="card-img-top" alt="Сушка">
-                        <div class="card-body">
-                            <h5 class="card-title">Сушка в подарок</h5>
-                            <p class="offers-card-text">Скидка 30% на все профильные окна в честь осеннего сезона</p>
-                        </div>
-                    </div>
-                </div>                             
             </div>
-            <button class="offers-btn btn">Заказать звонок</button>
+            <div class="col p-0 d-flex flex-column align-items-center">
+                <div class="card offers-item">
+                    <img src="img/offers2.png" class="card-img-top" alt="Сушка">
+                    <div class="card-body">
+                        <h5 class="card-title">Сушка в подарок</h5>
+                        <p class="offers-card-text">Скидка 30% на все профильные окна в честь осеннего сезона</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col p-0 d-flex flex-column align-items-center">
+                <div class="card offers-item">
+                    <img src="img/offers3.png" class="card-img-top" alt="Сушка">
+                    <div class="card-body">
+                        <h5 class="card-title">Сушка в подарок</h5>
+                        <p class="offers-card-text">Скидка 30% на все профильные окна в честь осеннего сезона</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col p-0 d-flex flex-column align-items-center">
+                <div class="card offers-item">
+                    <img src="img/offers4.png" class="card-img-top" alt="Сушка">
+                    <div class="card-body">
+                        <h5 class="card-title">Сушка в подарок</h5>
+                        <p class="offers-card-text">Скидка 30% на все профильные окна в честь осеннего сезона</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="offers-btn btn">Заказать звонок</button>
+    </section>
+    <section class="profile-selection container pb-5">
+        <h2 class="profile-selection-caption">Выберите свой профиль</h2>
+        <div class="row">
+            <div class="col">
+                <img src="img/profile.png" alt="Профиль">
+            </div>
+            <div class="col pt-4">
+                <h3 class="font-weight-bold mb-0">Люкс Veka Softline 82</h3>
+                <p class="windows-price">От <span class="text-red">6700</span> руб. за м^2</p>
+                <div class="profile-selection-text">
+                    <p>7 -и камерный профиль 82 мм</p>
+                    <p>Стеклопакет толщиной до 44 мм</p>
+                    <p>Энергосберегающее стекло</p>
+                    <p>Глянцевая поверхность</p>
+                    <p>Австрийская фурнитура Maco</p>
+                </div>
+                <div class="profile-selection-stars d-flex">
+                    <img src="img/red-star.svg" alt="Звезда">
+                    <img src="img/red-star.svg" alt="Звезда">
+                    <img src="img/red-star.svg" alt="Звезда">
+                    <img src="img/red-star.svg" alt="Звезда">
+                    <img src="img/star.svg" alt="Звезда">
+                </div>
+                <button class="profile-selection-btn btn d-flex justify-content-center align-items-center">Узнать подробности</button>
+            </div>
+            <div class="col pt-5">
+                <div class="profile-selection-picking pt-4">
+                    <div class="profile-selection-picking-item d-flex justify-content-center align-items-center">
+                        <label class="radio-label m-0">
+                            <input class="radio-input" name="profile-selection-picking" type="radio">
+                            <span class="ml-2">Стандарт</span>
+                        </label>
+                    </div>
+                    <div class="profile-selection-picking-item d-flex justify-content-center align-items-center">
+                        <label class="radio-label m-0">
+                            <input class="radio-input" name="profile-selection-picking" type="radio">
+                            <span class="ml-2">Премиум</span>
+                        </label>
+                    </div>
+                    <div class="profile-selection-picking-item d-flex justify-content-center align-items-center">
+                        <label class="radio-label m-0">
+                            <input class="radio-input" name="profile-selection-picking" type="radio">
+                            <span class="ml-2">Люкс</span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
