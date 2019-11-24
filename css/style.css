@@ -314,7 +314,8 @@ body {
     color: #fff;
 }
 
-.work-time-btn:hover {
+.work-time-btn:hover,
+.portfolio-btn:hover {
     border: 2px solid #BA1117;
     background: #fff;
     color: #BA1117;
@@ -355,4 +356,25 @@ body {
     font-size: 1.875rem;
     color: #BA1117;  
     font-weight: bold;
+}
+
+.portfolio {
+    max-width: 1950px;
+    padding: 0px 370px 100px 370px;    
+}
+.portfolio img {
+    width: 270px;
+    height: 210px;
+}
+.portfolio-caption {
+    text-align: center;
+    margin-bottom: 60px;
+}
+.portfolio-btn {
+    margin: 40px auto;
+    width: 263px;
+    height: 60px;
+    color: #fff;
+    background: #BA1117;
+    border-radius: 3px; 
 }
