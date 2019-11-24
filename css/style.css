@@ -323,3 +323,21 @@ body {
     width: 100%;
     height: 471px;
 }
+
+.work-scheme-item {
+    border-bottom: 1px solid #B0AEAE;
+}
+
+.work-scheme {
+    padding-bottom: 100px;
+}
+.work-scheme-item-number {
+    width: 67px;
+    height: 67px;
+    border: 2px solid #1F5A7B;
+    border-radius: 50%;
+}
+.work-scheme-item-important {
+    color: #1F5A7B;
+    font-size: 1.375rem;
+}
