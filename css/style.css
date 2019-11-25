@@ -297,7 +297,8 @@ body {
     color: #BA1117;
 }
 .work-time-text,
-.about-us-text {
+.about-us-text,
+.payment-item-description-text {
     color: #454545;
 }
 .work-time-item-description,
@@ -418,4 +419,38 @@ body {
 }
 .comments-indicators {
     margin: -30px auto;
+}
+
+
+
+.payment-caption {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.payment-item img {
+    max-width: 400px;
+    width: 100%;
+    height: 255px;
+}
+.payment {
+    max-width: 1950px;
+    padding: 0px 150px 100px 150px;
+}
+
+.work-scheme-item-important {
+    color: #1F5A7B;
+    font-size: 1.375rem;
+}
+
+.about-us-item-icons img{
+    width: 40px;
+    height: 40px;
+}
+
+.payment-item-description {
+    max-width: 940px;
+}
+.payment-item-description-text {
+    font-size: 1.125rem;
 }
