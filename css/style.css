@@ -378,3 +378,44 @@ body {
     background: #BA1117;
     border-radius: 3px; 
 }
+.comments {
+    padding-bottom: 100px;
+}
+.comments-item {
+    position: relative;
+    padding: 34px 30px 0px 38px;
+    width: 557px;
+    height: 252px;
+    background: #F5F5F5;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 3px; 
+}
+.comments-item img {
+    width: 70px;
+    height: 70px;
+}
+.comments-stars img {
+    width: 27px;
+    height: 27px;
+} 
+.comments-stars {
+    margin-left: 80px;
+}
+.comments-item-text {
+    margin-top: 20px;
+    font-size: 0.9375rem;
+    color: #454545;
+}
+.comments-item-btn {
+    color: #fff;
+    width: 135px;
+    height: 41px;
+    background: #BA1117;
+    border-radius: 3px 0px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.comments-indicators {
+    margin: -30px auto;
+}
