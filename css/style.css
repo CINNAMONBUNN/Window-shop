@@ -513,7 +513,6 @@ body {
     width: 100%;
     color: #fff;
     padding: 150px 100px 200px 100px; 
-    margin-bottom: 100px;
     background: url(../img/consultation.png) no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
@@ -559,4 +558,32 @@ body {
     font-size: 1.125rem;
     color: #454545;
     margin-bottom: 30px;
+}
+
+.footer {
+    padding: 60px;
+    color: #F5F5F5;
+    background: #282828;
+}
+.footer a {
+    color: #F5F5F5;
+    text-decoration: none;
+}
+.footer-item-wrapper {
+    max-width: 1800px;
+}
+.footer-item-important {
+    padding: 9px 7px;
+    margin-bottom: 20px;
+    text-align: center;
+    border: 2px solid #F5F5F5;
+    color: #F5F5F5;
+    opacity: 0.7;
+    font-size: 0.875rem;
+}
+.footer-item-number {
+    font-size: 1.375rem;
+}
+.footer-item-time {
+    padding-left: 80px;
 }
