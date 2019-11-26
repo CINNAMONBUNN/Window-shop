@@ -23,13 +23,16 @@ body {
     background: #000;
     margin-right: 12px;
 }
+
 .nav-wrapper {
     padding: 25px 0px;
 }
+
 .nav-link {
     margin-left: 38px;
 }
-.header-item-slider{
+
+.header-item-slider {
     height: 433px;
 }
 
@@ -39,17 +42,19 @@ body {
     text-align: center;
 }
 
-.carousel-inner img{
+.carousel-inner img {
     width: 100%;
     height: 433px;
 }
 
-.carousel-inner  {
+.carousel-inner {
     border-radius: 0;
 }
+
 .carousel-indicators {
     margin: 80px 30px 60px 150px;
 }
+
 .slider-text {
     width: 100%;
     color: #fff;
@@ -57,13 +62,15 @@ body {
     z-index: 99;
     padding-top: 120px;
 }
+
 .slider-text-btn {
     background: #fff;
     color: #000;
     width: 255px;
-    padding: 20px 60px; 
+    padding: 20px 60px;
     margin-top: 30px;
 }
+
 .slider-text-btn span {
     font-size: 0.9375rem;
 }
@@ -79,9 +86,11 @@ body {
     text-align: center;
     font-size: 1.125rem;
 }
+
 .windows-container {
     padding-top: 60px;
 }
+
 .windows-item-wrapper {
     margin-bottom: 80px;
 }
@@ -89,29 +98,36 @@ body {
 .windows-item {
     margin-bottom: 80px;
 }
-.window-item-properties p{
+
+.window-item-properties p {
     font-size: 0.9375rem;
     color: #454545;
 }
+
 .windows-price {
     font-size: 1.1875rem;
     color: #101014;
 }
+
 .text-red {
     color: red;
 }
+
 .callback-item-img img {
     width: 100%;
 }
+
 .callback-item-form {
     padding: 55px 135px;
     background: #F5F5F5;
 }
+
 .callback-caption {
     color: #101014;
     font-size: 2.3rem;
     margin-bottom: 0;
 }
+
 .callback-text {
     color: #454545;
     font-size: 1.125rem;
@@ -121,10 +137,10 @@ body {
 .callback-item-form input {
     border: none;
     width: 325px;
-    height: 50px; 
+    height: 50px;
     background: #DBD7D7;
     border-radius: 3px;
-    padding: 15px 20px; 
+    padding: 15px 20px;
     margin-bottom: 20px;
 }
 
@@ -149,26 +165,32 @@ body {
 .offers {
     padding: 50px 150px 100px 150px;
 }
+
 .offers-item-wrapper {
     max-width: 1300px;
 }
+
 .offers-item {
     border: 0;
     width: 263px;
     text-align: center;
 }
+
 .offers-caption {
     text-align: center;
     margin-bottom: 60px;
 }
+
 .offers-item img {
     width: 263px;
     height: 263px;
 }
+
 .offers-card-text {
     color: #454545;
     font-size: 1rem;
 }
+
 .offers-btn {
     margin-top: 20px;
     font-weight: 500;
@@ -178,6 +200,7 @@ body {
     border: 2px solid #BA1117;
     padding: 15px 40px;
 }
+
 .offers-btn:hover {
     background: #BA1117;
     color: #fff;
@@ -211,6 +234,7 @@ body {
     border-radius: 30px;
     margin-bottom: 30px;
 }
+
 .profile-selection-stars {
     margin: 45px 0px 30px 0px;
 }
@@ -221,11 +245,13 @@ body {
     appearance: none;
     position: absolute;
 }
+
 .radio-label {
     font-size: 1rem;
     color: #444;
     cursor: pointer;
 }
+
 .radio-label:before {
     content: '';
     display: block;
@@ -239,6 +265,7 @@ body {
     top: 30%;
     left: 20%;
 }
+
 .radio-label:after {
     content: '';
     position: absolute;
@@ -255,34 +282,43 @@ body {
 .advantages {
     padding: 50px 150px;
 }
+
 .advantages-caption {
     text-align: center;
 }
+
 .advantages-item-wrapper {
     max-width: 1500px;
 }
+
 .advantages-item {
     padding: 35px 50px;
 }
+
 .advantages-item1 {
     border-right: 1px solid #B0AEAE;
     border-bottom: 1px solid #B0AEAE;
     padding-bottom: 100px;
 }
+
 .advantages-item2 {
     border-right: 1px solid #B0AEAE;
     border-bottom: 1px solid #B0AEAE;
     padding-bottom: 100px;
 }
+
 .advantages-item3 {
     border-bottom: 1px solid #B0AEAE;
 }
+
 .advantages-item4 {
     border-right: 1px solid #B0AEAE;
 }
+
 .advantages-item6 {
     border-left: 1px solid #B0AEAE;
 }
+
 .advantages-item-icon {
     margin: 25px;
 }
@@ -291,16 +327,19 @@ body {
     padding-bottom: 100px;
     max-width: 1900px;
 }
+
 .work-time-caption {
     margin: 40px 0px 70px 0px;
     text-align: center;
     color: #BA1117;
 }
+
 .work-time-text,
 .about-us-text,
 .payment-item-description-text {
     color: #454545;
 }
+
 .work-time-item-description,
 .about-us-item-description {
     max-width: 540px;
@@ -310,7 +349,7 @@ body {
     margin-top: 20px;
     width: 260px;
     height: 60px;
-    border-radius: 3px;   
+    border-radius: 3px;
     background: #BA1117;
     color: #fff;
 }
@@ -323,7 +362,7 @@ body {
 }
 
 .work-time-item img,
-.about-us-item img{
+.about-us-item img {
     max-width: 670px;
     width: 100%;
     height: 471px;
@@ -337,51 +376,58 @@ body {
 .about-us {
     padding-bottom: 100px;
 }
+
 .work-scheme-item-number {
     width: 67px;
     height: 67px;
     border: 2px solid #1F5A7B;
     border-radius: 50%;
 }
+
 .work-scheme-item-important {
     color: #1F5A7B;
     font-size: 1.375rem;
 }
 
-.about-us-item-icons img{
+.about-us-item-icons img {
     width: 40px;
     height: 40px;
 }
 
 .about-us-item-icons-important {
     font-size: 1.875rem;
-    color: #BA1117;  
+    color: #BA1117;
     font-weight: bold;
 }
 
 .portfolio {
     max-width: 1950px;
-    padding: 0px 370px 100px 370px;    
+    padding: 0px 370px 100px 370px;
 }
+
 .portfolio img {
     width: 270px;
     height: 210px;
 }
+
 .portfolio-caption {
     text-align: center;
     margin-bottom: 60px;
 }
+
 .portfolio-btn {
     margin: 40px auto;
     width: 263px;
     height: 60px;
     color: #fff;
     background: #BA1117;
-    border-radius: 3px; 
+    border-radius: 3px;
 }
+
 .comments {
     padding-bottom: 100px;
 }
+
 .comments-item {
     position: relative;
     padding: 34px 30px 0px 38px;
@@ -389,24 +435,29 @@ body {
     height: 252px;
     background: #F5F5F5;
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.25);
-    border-radius: 3px; 
+    border-radius: 3px;
 }
+
 .comments-item img {
     width: 70px;
     height: 70px;
 }
+
 .comments-stars img {
     width: 27px;
     height: 27px;
-} 
+}
+
 .comments-stars {
     margin-left: 80px;
 }
+
 .comments-item-text {
     margin-top: 20px;
     font-size: 0.9375rem;
     color: #454545;
 }
+
 .comments-item-btn {
     color: #fff;
     width: 135px;
@@ -417,6 +468,7 @@ body {
     bottom: 0;
     right: 0;
 }
+
 .comments-indicators {
     margin: -30px auto;
 }
@@ -433,6 +485,7 @@ body {
     width: 100%;
     height: 255px;
 }
+
 .payment {
     max-width: 1950px;
     padding: 0px 150px 100px 150px;
@@ -443,7 +496,7 @@ body {
     font-size: 1.375rem;
 }
 
-.about-us-item-icons img{
+.about-us-item-icons img {
     width: 40px;
     height: 40px;
 }
@@ -451,6 +504,59 @@ body {
 .payment-item-description {
     max-width: 940px;
 }
+
 .payment-item-description-text {
     font-size: 1.125rem;
+}
+
+.consultation {
+    width: 100%;
+    color: #fff;
+    padding: 150px 100px 200px 100px; 
+    margin-bottom: 100px;
+    background: url(../img/consultation.png) no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: bottom;
+}
+.consultation-item-text {
+    color: #F5F5F5;
+    max-width: 550px;
+    font-size: 1.3rem;
+    line-height: 140%;
+    margin-right: 100px;
+}
+.consultation-item-form {
+    max-width: 520px;
+    color: #101014;
+    padding: 45px 35px;
+    background: #F5F5F5;
+    border: 3px solid #BA1117;
+    border-radius: 3px;
+}
+
+.consultation-item-form input {
+    padding: 14px 17px;
+    width: 451px;
+    height: 54px;
+    border: 2px solid #9F9F9F;
+}
+.consultation-btn {
+    color: #fff;
+    background: #BA1117;
+    border-radius: 3px;
+    width: 225px;
+    height: 50px;
+}
+.consultation-btn:hover {
+    color: #BA1117;
+    background: #fff;
+    border: 2px solid #BA1117;
+    width: 225px;
+    height: 50px;
+}
+.consultation-item-form-text {
+    font-size: 1.125rem;
+    color: #454545;
+    margin-bottom: 30px;
 }
