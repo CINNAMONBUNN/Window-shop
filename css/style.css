@@ -7,6 +7,9 @@
 a {
     color: #000;
 }
+a:hover {
+    color: #000;
+}
 
 html {
     overflow-x: hidden;
@@ -17,12 +20,7 @@ body {
     background: #fff;
 }
 
-.logo {
-    width: 145px;
-    height: 70px;
-    background: #000;
-    margin-right: 12px;
-}
+
 
 .nav-wrapper {
     padding: 25px 0px;
@@ -51,9 +49,6 @@ body {
     border-radius: 0;
 }
 
-.carousel-indicators {
-    margin: 80px 30px 60px 150px;
-}
 
 .slider-text {
     width: 100%;
@@ -112,11 +107,11 @@ body {
 .text-red {
     color: red;
 }
-
-.callback-item-img img {
-    width: 100%;
+.callback-item-img {
+    background: url(../img/callback.png) no-repeat;
+    background-size: cover;
+    background-position: center;
 }
-
 .callback-item-form {
     padding: 55px 135px;
     background: #F5F5F5;
@@ -227,7 +222,6 @@ body {
 }
 
 .profile-selection-picking-item {
-    position: relative;
     width: 195px;
     height: 46px;
     background: #EEEEEE;
@@ -239,45 +233,17 @@ body {
     margin: 45px 0px 30px 0px;
 }
 
-.radio-input {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    position: absolute;
+
+.custom-control-input:checked ~ .custom-control-label::before {
+    background-color: #ABABAB !important;
+    border-color: #ABABAB !important;
+    box-shadow: 0px 0px 0px 0px !important;
 }
 
-.radio-label {
-    font-size: 1rem;
-    color: #444;
-    cursor: pointer;
+.custom-radio .custom-control-input:checked ~ .custom-control-label::after {
+    background-image: url(../icons/checked.svg) !important;
 }
 
-.radio-label:before {
-    content: '';
-    display: block;
-    width: 18px;
-    height: 18px;
-    background-color: #ABABAB;
-    border: 1px solid #ccc;
-    border-radius: 50%;
-    position: absolute;
-    z-index: 1;
-    top: 30%;
-    left: 20%;
-}
-
-.radio-label:after {
-    content: '';
-    position: absolute;
-    display: block;
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    background-color: #800D0D;
-    z-index: 2;
-    top: 40%;
-    left: 22.5%;
-}
 
 .advantages {
     padding: 50px 150px;

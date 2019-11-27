@@ -16,7 +16,9 @@
     <section class="container-fluid nav-wrapper d-flex justify-content-center align-items-center">
         <nav class="navbar navbar-expand-lg">
             <a class="navbar-brand" href="main.html">
-                <div class="logo"></div>
+                <div class="logo">
+                    <img src="icons/logo.svg" alt="logo">
+                </div>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon">
@@ -59,11 +61,6 @@
                         <span>Обратный звонок</span>
                     </button>
                 </div>
-                <ol class="carousel-indicators justify-content-start">
-                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img src="img/slider1(v.1).png" class="d-block" alt="slider">
@@ -199,7 +196,7 @@
     <section class="callback container-fluid mb-5">
         <div class="row">
             <div class="col-4 callback-item callback-item-img p-0">
-                <img src="img/callback.png" alt="callback">
+                <!-- <img class="w-100" src="img/callback.png" alt="callback"> -->
             </div>
             <div class="col callback-item-form">
                 <h2 class="callback-caption">Закажите обратный звонок</h2>
@@ -290,22 +287,22 @@
             <div class="col pt-5">
                 <div class="profile-selection-picking pt-4">
                     <div class="profile-selection-picking-item d-flex justify-content-center align-items-center">
-                        <label class="radio-label m-0">
-                            <input class="radio-input" name="profile-selection-picking" type="radio">
-                            <span class="ml-2">Стандарт</span>
-                        </label>
+                        <div class="custom-control custom-radio custom-control-inline">
+                            <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                            <label class="custom-control-label" for="customRadioInline1">Стандарт</label>
+                        </div>
                     </div>
                     <div class="profile-selection-picking-item d-flex justify-content-center align-items-center">
-                        <label class="radio-label m-0">
-                            <input class="radio-input" name="profile-selection-picking" type="radio">
-                            <span class="ml-2">Премиум</span>
-                        </label>
+                        <div class="custom-control custom-radio custom-control-inline">
+                            <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+                            <label class="custom-control-label" for="customRadioInline2">Премиум</label>
+                        </div>
                     </div>
                     <div class="profile-selection-picking-item d-flex justify-content-center align-items-center">
-                        <label class="radio-label m-0">
-                            <input class="radio-input" name="profile-selection-picking" type="radio">
-                            <span class="ml-2">Люкс</span>
-                        </label>
+                        <div class="custom-control custom-radio custom-control-inline">
+                            <input type="radio" id="customRadioInline3" name="customRadioInline1" class="custom-control-input">
+                            <label class="custom-control-label" for="customRadioInline3">Люкс</label>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -342,7 +339,7 @@
                 <div class="w-100"></div>
                 <img class="advantages-item-icon" src="icons/ico4 1.svg">
                 <img class="advantages-item-icon" src="icons/ico5 1.svg">
-                <img class="advantages-item-icon" src="icons/ico6 1.svg">
+                <img class="advantages-item-icon" src="icons/ico3 1.svg">
             </div>
         </div>
     </section>
@@ -646,9 +643,9 @@
                 <div class="footer-item-important">
                     Информация, размещенная на сайте, не является публичной офертой
                 </div>
-                <div class="d-flex flex-column align-items-center"> 
+                <div class="d-flex flex-column align-items-center">
                     <a href="#" class="mb-2">Политика конфидециальности</a>
-                    <a href="#">Пользовательское соглашение</a>  
+                    <a href="#">Пользовательское соглашение</a>
                 </div>
             </div>
             <div class="col footer-item footer-item-time">
