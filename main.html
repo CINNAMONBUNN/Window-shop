@@ -28,31 +28,28 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav m-auto d-flex justify-content-between">
                     <li class="nav-item active">
-                        <a href="#" class="nav-link">Пластиковые окна</a>
+                        <a href="#windows" class="nav-link">Пластиковые окна</a>
                     </li>
                     <li class="nav-item active">
-                        <a href="#" class="nav-link">Остекление</a>
+                        <a href="#profile-selection" class="nav-link">Остекление</a>
                     </li>
                     <li class="nav-item active">
-                        <a href="#" class="nav-link">Отделка</a>
+                        <a href="#portfolio" class="nav-link">Отделка</a>
                     </li>
                     <li class="nav-item active">
-                        <a href="#" class="nav-link">Входные группы</a>
+                        <a href="#offers" class="nav-link">Акции</a>
                     </li>
                     <li class="nav-item active">
-                        <a href="#" class="nav-link">Акции</a>
+                        <a href="#about-us" class="nav-link">О компании</a>
                     </li>
                     <li class="nav-item active">
-                        <a href="#" class="nav-link">О компании</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a href="#" class="nav-link">Контакты</a>
+                        <a href="#footer" class="nav-link">Контакты</a>
                     </li>
                 </ul>
             </div>
         </nav>
     </section>
-    <section class="header">
+    <section class="header" id="header">
         <div class="col-12 p-0 header-item-slider m-0">
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                 <div class="slider-text d-flex justify-content-center align-items-center flex-column">
@@ -75,8 +72,8 @@
             </div>
         </div>
     </section>
-    <section class="windows container d-flex flex-column align-items-center">
-        <h2>Купить пластиковые окна от производителя в Москве</h2>
+    <section class="windows container d-flex flex-column align-items-center" id="windows">
+        <h2 class="windows-caption">Купить пластиковые окна от производителя в Москве</h2>
         <p class="windows-text">Наша цель – создавать тепло и уют в Вашем доме, чтобы каждый наш клиент был доволен и рекомендовал нас своим друзьям и близким. Наши менеджеры возьмут во внимание все особенности объекта, будь то остекление квартиры или коттеджа, балкона или лоджии, и подберут лучшую профильную систему.</p>
         <div class="container-fluid d-flex justify-content-center">
             <div class="row windows-container">
@@ -193,12 +190,12 @@
             </div>
         </div>
     </section>
-    <section class="callback container-fluid mb-5">
+    <section class="callback container-fluid mb-5" id="callback">
         <div class="row">
-            <div class="col-4 callback-item callback-item-img p-0">
+            <div class="col-xl-4 col-0 callback-item callback-item-img p-0">
                 <!-- <img class="w-100" src="img/callback.png" alt="callback"> -->
             </div>
-            <div class="col callback-item-form">
+            <div class="col-xl callback-item-form">
                 <h2 class="callback-caption">Закажите обратный звонок</h2>
                 <p class="callback-text">Наш менеджер позвонит в удобное для вас время</p>
                 <form>
@@ -208,8 +205,8 @@
                             <input type="text" placeholder="Ваш номер телефона">
                             <input type="email" placeholder="Ваш Email ">
                         </div>
-                        <div class="col p-0">
-                            <button class="callback-btn btn d-flex justify-content-center align-items-center">
+                        <div class="col-12 p-0">
+                            <button class="callback-btn btn d-flex justify-content-center align-items-center ml-3">
                                 Отправить</button>
                         </div>
                     </div>
@@ -217,7 +214,7 @@
             </div>
         </div>
     </section>
-    <section class="offers d-flex flex-column align-items-center">
+    <section class="offers d-flex flex-column align-items-center" id="offers">
         <h2 class="offers-caption font-weight-bold">Наши акции и предложения</h2>
         <div class="offers-item-wrapper row w-100 justify-content-between">
             <div class="col p-0 d-flex flex-column align-items-center">
@@ -259,13 +256,13 @@
         </div>
         <button class="offers-btn btn">Заказать звонок</button>
     </section>
-    <section class="profile-selection container pb-5">
+    <section class="profile-selection container pb-5" id="profile-selection">
         <h2 class="profile-selection-caption font-weight-bold">Выберите свой профиль</h2>
-        <div class="row">
-            <div class="col">
+        <div class="row profile-selection-wrapper">
+            <div class="col profile-selection-img">
                 <img src="img/profile.png" alt="Профиль">
             </div>
-            <div class="col pt-4">
+            <div class="col profile-selection-description pt-4">
                 <h3 class="font-weight-bold mb-0">Люкс Veka Softline 82</h3>
                 <p class="windows-price">От <span class="text-red">6700</span> руб. за м^2</p>
                 <div class="profile-selection-text">
@@ -284,7 +281,7 @@
                 </div>
                 <button class="profile-selection-btn btn d-flex justify-content-center align-items-center">Узнать подробности</button>
             </div>
-            <div class="col pt-5">
+            <div class="col profile-selection-picking-wrapper pt-5">
                 <div class="profile-selection-picking pt-4">
                     <div class="profile-selection-picking-item d-flex justify-content-center align-items-center">
                         <div class="custom-control custom-radio custom-control-inline">
@@ -308,28 +305,43 @@
             </div>
         </div>
     </section>
-    <section class="advantages container-fluid">
+    <section class="advantages container-fluid" id="advantages">
         <h2 class="advantages-caption mb-5 font-weight-bold">Наши преимущества</h2>
         <div class="row advantages-item-wrapper m-auto">
-            <div class="col advantages-item advantages-item1">
-                <h3 class="mb-3 mt-4">Собственное производство</h3>
+            <div class="col-12 col-lg-4 advantages-item advantages-item1">
+                <div class="d-flex justify-content-between align-items-center">
+                    <h3 class="mb-3 mt-4">Собственное производство</h3>
+                    <img class = "d-none advantages-item-img-mobile" src="icons/ico1 1.svg">
+                </div>
                 <p>Покупая окна напрямую от производителя, Вы экономите до 27%, избегая посредников.</p>
             </div>
-            <div class="col advantages-item advantages-item2">
-                <h3 class="mb-3 mt-4">Точные сроки</h3>
+            <div class="col-12 col-lg-4 advantages-item advantages-item2">
+                <div class="d-flex justify-content-between align-items-center">
+                    <h3 class="mb-3 mt-4">Точные сроки</h3>
+                    <img class = "d-none advantages-item-img-mobile" src="icons/ico2 1.svg">
+                </div>
                 <p>Мы подстраиваемся под каждого клиента и не допускаем переноса сроков.</p>
             </div>
-            <div class="col advantages-item advantages-item3">
-                <h3 class="mb-3 mt-4">Монтаж по госту</h3>
+            <div class="col-12 col-lg-4 advantages-item advantages-item3">
+                <div class="d-flex justify-content-between align-items-center">
+                    <h3 class="mb-3 mt-4">Монтаж по госту</h3>
+                    <img class = "d-none advantages-item-img-mobile" src="icons/ico5 1.svg">
+                </div>
                 <p>Все наши монтажники - опытные профессионалы. Используем только проверенные материалы, чтобы ваши новые окна служили долго и обладали высокими характеристиками звукоизоляции и теплоизоляции.</p>
             </div>
             <div class="w-100"></div>
-            <div class="col advantages-item advantages-item4">
-                <h3 class="mb-3 mt-4">Более 20 лет опыта</h3>
+            <div class="col-12 col-lg-4 advantages-item advantages-item4">
+                <div class="d-flex justify-content-between align-items-center">
+                    <h3 class="mb-3 mt-4">Более 20 лет опыта</h3>
+                    <img class = "d-none advantages-item-img-mobile" src="icons/ico6 1.svg">
+                </div>
                 <p>Работаем с 1996 года. Большинство клиентов обращаются к нам повторно и рекомендуют нас своим друзьям и знакомым.</p>
             </div>
-            <div class="col advantages-item advantages-item5">
-                <h3 class="mb-3 mt-4">Гарантия качества</h3>
+            <div class="col-12 col-lg-4 advantages-item advantages-item5">
+                <div class="d-flex justify-content-between align-items-center">
+                    <h3 class="mb-3 mt-4">Гарантия качества</h3>
+                    <img class = "d-none advantages-item-img-mobile" src="icons/ico4 1.svg">
+                </div>
                 <p>Вся наша продукция сертифицирована, соответствует всем госстандартам и строительным нормам. Также, мы выдаем гарантийный талон на бесплатное сервисное обслуживание.</p>
             </div>
             <div class="col advantages-item advantages-item6">
@@ -343,24 +355,24 @@
             </div>
         </div>
     </section>
-    <section class="work-time container-fluid">
+    <section class="work-time container-fluid" id="work-time">
         <h2 class="work-time-caption font-weight-bold">Мы работаем 25 лет</h2>
-        <div class="row justify-content-center">
-            <div class="col work-time-item work-time-item-description">
+        <div class="row work-time-item-wrapper justify-content-center">
+            <div class="col-xl col-12 work-time-item work-time-item-description">
                 <h2>Мы работаем 25 лет для самых любимых клиентов</h2>
                 <p class="work-time-text">Можете сравнить, сколько стоит остекление балкона, и узнать цены в разных фирмах Москвы, но эти показатели будут значительно отличаться. Чтобы исключить коммерческие накрутки, стоит сотрудничать с проверенными и производителями.</p>
                 <button class="work-time-btn btn">Подробнее</button>
             </div>
-            <div class="col-5 work-time-item p-0 d-flex justify-content-end">
+            <div class="col-xl-5 col-12 work-time-item p-0 d-flex justify-content-end">
                 <img src="img/work-time.png" alt="work-time">
             </div>
         </div>
     </section>
-    <section class="work-scheme">
+    <section class="work-scheme" id="work-scheme">
         <h2 class="work-time-caption font-weight-bold">Как мы работаем</h2>
         <div class="container">
             <div class="row">
-                <div class="col-8">
+                <div class="col-md-9 col-12">
                     <div class="work-scheme-item d-flex align-items-center pb-3 mb-4">
                         <div class="work-scheme-item-number mr-4 d-flex justify-content-center align-items-center">1</div>
                         <div class="work-scheme-item-text">
@@ -407,9 +419,9 @@
             </div>
         </div>
     </section>
-    <section class="about-us container-fluid">
-        <div class="row justify-content-center">
-            <div class="col about-us-item about-us-item-description">
+    <section class="about-us container-fluid" id="about-us">
+        <div class="row about-us-item-wrapper justify-content-center">
+            <div class="col-xl col-12 about-us-item about-us-item-description">
                 <h2 class="font-weight-bold">О нас</h2>
                 <p class="about-us-text m-0">— реализовали несколько сотен проектов по застеклению балконов и лоджий;</p>
                 <p class="about-us-text m-0">— установили крепкие партнёрские отношения с передовыми строительными фирмами;</p>
@@ -427,12 +439,12 @@
                     </div>
                 </div>
             </div>
-            <div class="col-5 about-us-item p-0 d-flex justify-content-end">
-                <img src="img/work-time.png" alt="work-time">
+            <div class="col-xl-5 col-12 about-us-item p-0 d-flex justify-content-end">
+                <img src="img/about-us.png" alt="work-time">
             </div>
         </div>
     </section>
-    <section class="portfolio container-fluid">
+    <section class="portfolio container-fluid" id="portfolio">
         <h2 class="font-weight-bold portfolio-caption">Наши работы</h2>
         <div class="row">
             <div class="col d-flex justify-content-center p-0">
@@ -479,7 +491,7 @@
             <button class="portfolio-btn btn">Найти похожее</button>
         </div>
     </section>
-    <section class="comments d-flex flex-column align-items-center">
+    <section class="comments d-flex flex-column align-items-center" id="comments">
         <h2 class="font-weight-bold portfolio-caption">Наши отзывы</h2>
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="comments-indicators carousel-indicators justify-content-center pt-4">
@@ -593,7 +605,7 @@
             </div>
         </div>
     </section>
-    <section class="payment m-auto">
+    <section class="payment m-auto" id="payment">
         <h2 class="font-weight-bold payment-caption">Оплата и рассрочка</h2>
         <div class="row justify-content-center">
             <div class="col payment-item payment-item-description">
@@ -605,7 +617,7 @@
             </div>
         </div>
     </section>
-    <section class="consultation container-fluid">
+    <section class="consultation container-fluid" id="consultation">
         <div class="row align-items-center justify-content-center">
             <div class="col consultation-item consultation-item-text">
                 <div class="mb-3">
@@ -627,7 +639,7 @@
             </div>
         </div>
     </section>
-    <footer class="footer container-fluid d-flex justify-content-center">
+    <footer class="footer container-fluid d-flex justify-content-center" id="footer">
         <div class="row footer-item-wrapper">
             <div class="col footer-item">
                 <p>© 1996-2019 ООО ТД «Окна Роста» окна от производителя</p>
