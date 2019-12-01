@@ -376,17 +376,16 @@ body {
 
 .portfolio {
     max-width: 1950px;
-    padding: 0px 370px 100px 370px;
 }
 
 .portfolio img {
-    width: 270px;
-    height: 210px;
+    width: 265px;
+    height: 205px;
 }
 
 .portfolio-caption {
     text-align: center;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
 }
 
 .portfolio-btn {
@@ -404,9 +403,8 @@ body {
 
 .comments-item {
     position: relative;
-    padding: 34px 30px 0px 38px;
+    padding: 34px 30px 20px 38px;
     width: 557px;
-    height: 252px;
     background: #F5F5F5;
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.25);
     border-radius: 3px;
@@ -425,6 +423,7 @@ body {
 .comments-stars {
     margin-left: 80px;
 }
+
 
 .comments-item-text {
     margin-top: 20px;
@@ -617,6 +616,31 @@ body {
     .work-time-caption {
         margin: 30px 0px 40px 0px;
     }
+
+    .portfolio {
+        max-width: 800px;
+    }
+
+    .comments-item-wrapper {
+        flex-direction: column;
+    }
+
+    .comments-item {
+        margin-left: 0px !important;
+        margin-bottom: 30px;
+    }
+
+    .comments-stars-mobile {
+        display: block !important;
+    }
+
+    .comments-stars {
+        display: none !important;
+    }
+
+    .comments-stars-mobile {
+        display: block !important;
+    }
 }
 
 @media screen and (max-width: 1120px) {
@@ -642,10 +666,6 @@ body {
 
     .windows-caption {
         font-size: 1.5rem;
-    }
-
-    .carousel-inner {
-        height: 400px;
     }
 
     .slider-text {
@@ -747,17 +767,37 @@ body {
     .advantages-item h3 {
         font-size: 1.5rem;
     }
+
+    .portfolio img {
+        width: 220px;
+        height: 160px;
+    }
 }
 
+@media screen and (max-width: 570px) {
+    .portfolio img {
+        width: 190px;
+        height: 130px;
+    }
+
+    .comments-item {
+        width: 450px;
+    }
+}
 
 @media screen and (max-width: 540px) {
     .windows {
-        padding-top: 40px;
+        padding: 40px 0px 20px 0px;
+    }
+
+    .windows-caption {
+        margin-left: 10px;
     }
 
     .windows-text {
         text-align: left;
         font-size: 0.875rem;
+        padding: 0px 10px;
     }
 
     .window-item-properties p {
@@ -767,6 +807,10 @@ body {
 
     .windows-item-preview-container {
         padding: 0px;
+    }
+
+    .windows-item-text {
+        padding-left: 40px;
     }
 
     .header-caption {
@@ -784,7 +828,7 @@ body {
         font-size: 0.8rem;
     }
 
-    .carousel-inner,
+    .carousel-inner-header,
     .header-item-slider {
         height: 300px;
     }
@@ -816,6 +860,20 @@ body {
 
     .advantages {
         padding: 50px 10px 30px 10px;
+    }
+
+    .portfolio img {
+        width: 160px;
+        height: 125px;
+    }
+
+    .comments-item {
+        width: 380px;
+        padding: 10px;
+    }
+
+    .comments-item-text {
+        font-size: 0.875rem;
     }
 }
 
@@ -853,5 +911,36 @@ body {
     .work-scheme,
     .about-us {
         padding-bottom: 30px;
+    }
+
+    .portfolio img {
+        width: 140px;
+        height: 105px;
+    }
+
+    .comments-item {
+        width: 320px;
+    }
+
+    .comments-item-text {
+        margin-top: 5px;
+    }
+
+    .comments-indicators {
+        margin: 0px auto;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .portfolio-item {
+        justify-content: space-around !important;
+    }
+
+    .advantages {
+        padding: 50px 10px 0px 10px;
+    }
+
+    .comments-item {
+        width: 300px;
     }
 }
