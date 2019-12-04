@@ -35,6 +35,10 @@ body {
     height: 433px;
 }
 
+.nav-link:hover {
+    border-bottom: 3px solid #BA1117;
+    margin-bottom: -3px;
+}
 
 .header-caption {
     max-width: 523px;
@@ -665,6 +669,10 @@ body {
     .consultation-item-text {
         margin-right: 30px;
     }
+
+    .about-us {
+        padding-bottom: 40px;
+    }
 }
 
 @media screen and (max-width: 1120px) {
@@ -682,6 +690,7 @@ body {
 @media screen and (max-width: 992px) {
     .nav-link {
         margin-left: 15px;
+        display: inline-block;
     }
 
     .navbar {
@@ -769,20 +778,24 @@ body {
         margin-right: 0px;
         margin-bottom: 20px;
     }
+
     .footer {
         padding: 15px;
     }
+
     .footer-item-wrapper {
         flex-direction: column;
     }
 
     .footer-item {
-        margin-bottom: 30px;
+        margin-bottom: 40px;
     }
+
     .footer-item p,
     .footer-item-cards {
         text-align: center;
     }
+
     .footer-item-time {
         display: flex;
         flex-direction: column;
@@ -790,13 +803,32 @@ body {
         text-align: center;
         padding: 0px;
     }
+
     .footer-item-time p {
         margin-bottom: 10px;
         font-size: 1rem;
     }
+
     .footer-item-timetable {
         margin-top: 30px;
     }
+
+    .slider1,
+    .slider2,
+    .slider3 {
+        display: none !important;
+    }
+
+    .slider1-mobile,
+    .slider2-mobile,
+    .slider3-mobile {
+        display: block !important;
+    }
+
+    .work-time {
+        padding-bottom: 40px;
+    }
+
 }
 
 @media screen and (max-width: 766px) {
@@ -871,6 +903,7 @@ body {
     .consultation-item-text p {
         font-size: 0.9375rem;
     }
+
     .consultation-item-text img {
         width: 26px;
         height: 26px;
@@ -886,6 +919,22 @@ body {
         border-radius: 0;
         display: flex !important;
         flex-direction: column;
+    }
+
+    .about-us-item-description {
+        text-align: left;
+    }
+
+    .about-us-caption {
+        text-align: center;
+    }
+
+    .about-us-item-icons-text span {
+        font-size: 0.7rem;
+    }
+
+    .about-us-item-icons-important {
+        font-size: 1.5rem !important;
     }
 }
 
@@ -1077,12 +1126,15 @@ body {
     .payment {
         padding: 0px 10px 50px 10px;
     }
+
     .consultation-item-form-mobile h4 {
         font-size: 1rem;
     }
+
     .consultation-item-form-text {
         font-size: 0.875rem;
     }
+
     .consultation-item-form-mobile input {
         font-size: 0.875rem;
         width: 320px;
@@ -1102,6 +1154,7 @@ body {
     .comments-item {
         width: 300px;
     }
+
     .consultation-item-form-mobile input {
         width: 290px;
     }
