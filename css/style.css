@@ -202,9 +202,11 @@ body {
     border: 2px solid #BA1117;
     background: transparent;
 }
+
 .offers-btn:focus {
     border: 2px solid #BA1117 !important;
 }
+
 .offers-btn:hover {
     background: #BA1117;
     color: #fff;
@@ -448,6 +450,9 @@ body {
     bottom: 0;
     right: 0;
 }
+.comments-item-btn:hover {
+    color: #fff; 
+}
 
 .comments-indicators {
     margin: -30px auto;
@@ -585,13 +590,17 @@ body {
     }
 }
 
-@media screen and (max-width: 1330px) {
+@media screen and (max-width: 1350px) {
     .advantages {
         padding: 25px 50px;
     }
 
     .work-time-item img {
         height: 400px;
+    }
+
+    .offers {
+        padding: 50px 50px 100px 50px;
     }
 }
 
@@ -676,6 +685,14 @@ body {
     .about-us {
         padding-bottom: 40px;
     }
+    .offers {
+        padding: 50px 100px 100px 100px;
+    }
+    .comments-item2,
+    .comments-item3,
+    .comments-item6 {
+        display: none !important;
+    }
 }
 
 @media screen and (max-width: 1120px) {
@@ -701,6 +718,7 @@ body {
     }
 
     .windows-caption {
+        text-align: center;
         font-size: 1.5rem;
     }
 
@@ -1160,5 +1178,8 @@ body {
 
     .consultation-item-form-mobile input {
         width: 290px;
+    }
+    .windows-caption {
+        font-size: 1.3rem;
     }
 }
