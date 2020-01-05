@@ -23,6 +23,35 @@ body {
 
 
 
+#callback-name-error,
+#callback-number-error,
+#callback-email-error {
+    width: 90vw;
+    color: red;
+    margin-top: -10px !important;
+}
+
+input:required {
+    box-shadow: 0px 0px 0px 0px transparent;
+}
+
+.valid {
+    border: none !important;
+}
+.invalid {
+    border: 2px solid red !important;
+    box-shadow: 0px 0px 0px 0px;
+}
+
+.invalid-text {
+    display: block !important;
+}
+
+.valid-text {
+    display: none;
+}
+
+
 .nav-wrapper {
     padding: 25px 0px;
 }
@@ -450,8 +479,9 @@ body {
     bottom: 0;
     right: 0;
 }
+
 .comments-item-btn:hover {
-    color: #fff; 
+    color: #fff;
 }
 
 .comments-indicators {
@@ -686,9 +716,11 @@ body {
     .about-us {
         padding-bottom: 40px;
     }
+
     .offers {
         padding: 50px 100px 100px 100px;
     }
+
     .comments-item2,
     .comments-item3,
     .comments-item6 {
@@ -1180,6 +1212,7 @@ body {
     .consultation-item-form-mobile input {
         width: 290px;
     }
+
     .windows-caption {
         font-size: 1.3rem;
     }

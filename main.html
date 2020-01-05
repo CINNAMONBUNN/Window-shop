@@ -201,16 +201,18 @@
             <div class="col-xl callback-item-form">
                 <h2 class="callback-caption">Закажите обратный звонок</h2>
                 <p class="callback-text">Наш менеджер позвонит в удобное для вас время</p>
-                <form>
+                <form id="callback-form">
                     <div class="row">
                         <div class="col-5 pr-0 d-flex flex-column">
-                            <input type="text" placeholder="Как вас зовут?">
-                            <input type="text" placeholder="Ваш номер телефона">
-                            <input type="email" placeholder="Ваш Email ">
+                            <input data-rule="name" required id="callback-name" placeholder="Как вас зовут?">
+                            <p id="callback-name-error">Имя должно содержать более двух символов</p>
+                            <input data-rule="number" required id="callback-number" placeholder="Ваш номер телефона">
+                            <p id="callback-number-error">Номер должен содержать 11 цифр</p>
+                            <input data-rule="email" required type="email" id="callback-email" placeholder="Ваш Email">
+                            <p id="callback-email-error">Некорректно введена почта</p>
                         </div>
                         <div class="col-12 p-0">
-                            <button class="callback-btn btn d-flex justify-content-center align-items-center ml-3">
-                                Отправить</button>
+                            <button type="submit" class="callback-btn btn d-flex justify-content-center align-items-center ml-3">Отправить</button>
                         </div>
                     </div>
                 </form>
@@ -506,8 +508,6 @@
             <div class="carousel-inner">
                 <div class="carousel-item active p-4">
                     <div class="comments-item-wrapper d-flex">
-
-
                         <div class="comments-item comments-item1 d-block">
                             <div class="comments-item-name d-flex align-items-center">
                                 <img class="mr-3" src="img/comments1.png" alt="avatar">
@@ -532,9 +532,6 @@
                             </div>
                             <button class="comments-item-btn btn">Подробнее</button>
                         </div>
-
-
-
                         <div class="comments-item comments-item2 ml-4">
                             <div class="comments-item-name d-flex align-items-center">
                                 <img class="mr-3" src="img/comments2.png" alt="avatar">
@@ -563,8 +560,6 @@
                 </div>
                 <div class="carousel-item p-4">
                     <div class="comments-item-wrapper d-flex">
-
-
                         <div class="comments-item comments-item3 d-block">
                             <div class="comments-item-name d-flex align-items-center">
                                 <img class="mr-3" src="img/comments1.png" alt="avatar">
@@ -589,8 +584,6 @@
                             </div>
                             <button class="comments-item-btn btn">Подробнее</button>
                         </div>
-
-
                         <div class="comments-item comments-item4 ml-4">
                             <div class="comments-item-name d-flex align-items-center">
                                 <img class="mr-3" src="img/comments2.png" alt="avatar">
@@ -615,14 +608,10 @@
                             </div>
                             <button class="comments-item-btn btn">Подробнее</button>
                         </div>
-
-
                     </div>
                 </div>
                 <div class="carousel-item p-4">
                     <div class="comments-item-wrapper d-flex">
-                        
-
                         <div class="comments-item comments-item5 d-block">
                             <div class="comments-item-name d-flex align-items-center">
                                 <img class="mr-3" src="img/comments1.png" alt="avatar">
@@ -647,8 +636,6 @@
                             </div>
                             <button class="comments-item-btn btn">Подробнее</button>
                         </div>
-
-
                         <div class="comments-item comments-item6 ml-4">
                             <div class="comments-item-name d-flex align-items-center">
                                 <img class="mr-3" src="img/comments2.png" alt="avatar">
@@ -673,8 +660,6 @@
                             </div>
                             <button class="comments-item-btn btn">Подробнее</button>
                         </div>
-
-
                     </div>
                 </div>
             </div>
@@ -718,9 +703,9 @@
         <h4>Хотите получить консультацию</h4>
         <p class="consultation-item-form-text">Или записать на замер</p>
         <form action="#" class=" d-flex flex-column">
-            <input placeholder="Ваше имя" class="mb-4">
-            <input placeholder="Ваш номер" class="mb-5">
-            <button class="consultation-btn btn">Отправить заявку</button>
+            <input placeholder="Ваше имя" required class="mb-4">
+            <input placeholder="Ваш номер" required class="mb-5">
+            <button class="consultation-btn btn" type="submit">Отправить заявку</button>
         </form>
     </div>
     <footer class="footer container-fluid d-flex justify-content-center" id="footer">
