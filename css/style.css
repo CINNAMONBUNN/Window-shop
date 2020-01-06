@@ -45,6 +45,8 @@ input:required {
 
 .invalid-text {
     display: block !important;
+    max-width: 350px;
+    margin-bottom: 5px;
 }
 
 .valid-text {
@@ -149,8 +151,9 @@ input:required {
 }
 
 .callback-item-form {
-    padding: 55px 155px;
+    padding: 45px 155px 55px 155px;
     background: #F5F5F5;
+    max-height: 470px;
 }
 
 .callback-caption {
@@ -162,7 +165,7 @@ input:required {
 .callback-text {
     color: #454545;
     font-size: 1.125rem;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .callback-item-form input {
@@ -172,7 +175,7 @@ input:required {
     background: #DBD7D7;
     border-radius: 3px;
     padding: 15px 20px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .callback-btn {
