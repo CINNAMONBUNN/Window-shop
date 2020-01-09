@@ -1,9 +1,11 @@
+	/*form validation in the callback section*/
+
 const inputs = document.querySelectorAll('input[data-rule]'),    
     textNameError = document.querySelector('#callback-name-error'),
     textNumberError = document.querySelector('#callback-number-error'),
     textEmailError = document.querySelector('#callback-email-error'),
     callbackForm = document.querySelector('#callback-form');
-    
+
 let checking;
 
 textNameError.classList.add('valid-text');
@@ -61,3 +63,17 @@ callbackForm.addEventListener('submit', e => {
         e.preventDefault();
     }
 });
+
+
+/*scroll*/
+
+const navLinks = document.querySelectorAll('.nav-link');
+for(let navLink of navLinks) {
+	navLink.addEventListener('click', function(e) {
+		let attrValue = $(this).attr('href');
+		$('html,body').animate({
+			scrollTop: $(attrValue).offset().top
+		}, 950)
+	});
+}
+
