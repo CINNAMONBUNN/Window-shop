@@ -204,11 +204,11 @@
                 <form id="callback-form">
                     <div class="row">
                         <div class="col-5 pr-0 d-flex flex-column">
-                            <input data-rule="name" required id="callback-name" placeholder="Как вас зовут?">
+                            <input data-rule="name" id="callback-name" placeholder="Как вас зовут?">
                             <p id="callback-name-error">Имя должно содержать более двух символов</p>
-                            <input data-rule="number" required id="callback-number" placeholder="Ваш номер телефона">
+                            <input data-rule="number" id="callback-number" placeholder="Ваш номер телефона">
                             <p id="callback-number-error">Номер должен содержать 11 цифр</p>
-                            <input data-rule="email" required type="email" id="callback-email" placeholder="Ваш Email">
+                            <input data-rule="email" type="email" id="callback-email" placeholder="Ваш Email">
                             <p id="callback-email-error">Некорректно введена почта</p>
                         </div>
                         <div class="col-12 p-0">
@@ -731,8 +731,12 @@
             </div>
             <div class="col footer-item footer-item-time">
                 <p class="order-sm-0 order-4 footer-item-timetable">Пн.- Вс. – с 10:00 до 20:00</p>
-                <p class="order-sm-0 order-1 footer-item-number">8 (495) 191-46-93</p>
-                <p class="order-sm-0 order-2">Email: zakaz2@zavodoknarosta.ru</p>
+                <a href="tel:84951914693">
+                    <p class="order-sm-0 order-1 footer-item-number">8 (495) 191-46-93</p>
+                </a>
+                <a href="mailto:zakaz2@zavodoknarosta.ru">
+                    <p class="order-sm-0 order-2">Email: zakaz2@zavodoknarosta.ru</p>
+                </a>                
                 <a class="order-sm-0 order-3" href="#">Заказать обратный звонок</a>
             </div>
         </div>
