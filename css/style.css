@@ -38,6 +38,7 @@ input:required {
 .valid {
     border: none !important;
 }
+
 .invalid {
     border: 2px solid red !important;
     box-shadow: 0px 0px 0px 0px;
@@ -193,8 +194,6 @@ input:required {
     background: #fff;
     border: 2px solid #BA1117 !important;
 }
-
-
 
 .offers {
     padding: 50px 150px 100px 150px;
@@ -439,13 +438,14 @@ input:required {
 }
 
 .comments {
-    padding-bottom: 100px;
+    max-width: 1900px;
+    margin: 0px auto;
+    padding: 0px 100px 100px 100px;
 }
 
 .comments-item {
     position: relative;
-    padding: 34px 30px 20px 38px;
-    width: 557px;
+    padding: 34px 26px 20px 34px;
     background: #F5F5F5;
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.25);
     border-radius: 3px;
@@ -635,6 +635,10 @@ input:required {
 
     .offers {
         padding: 50px 50px 100px 50px;
+    }
+
+    .comments {
+        padding: 0px 50px 100px 50px;
     }
 }
 

@@ -70,6 +70,7 @@ callbackForm.addEventListener('submit', e => {
 const navLinks = document.querySelectorAll('.nav-link');
 for(let navLink of navLinks) {
 	navLink.addEventListener('click', function(e) {
+		e.preventDefault();
 		let attrValue = $(this).attr('href');
 		$('html,body').animate({
 			scrollTop: $(attrValue).offset().top
