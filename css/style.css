@@ -21,11 +21,9 @@ body {
     background: #fff;
 }
 
-
-
-#callback-name-error,
-#callback-number-error,
-#callback-email-error {
+.name-error,
+.number-error,
+.email-error {
     width: 90vw;
     color: red;
     margin-top: -10px !important;

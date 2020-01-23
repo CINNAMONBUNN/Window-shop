@@ -201,21 +201,27 @@
             <div class="col-xl callback-item-form">
                 <h2 class="callback-caption">Закажите обратный звонок</h2>
                 <p class="callback-text">Наш менеджер позвонит в удобное для вас время</p>
+
+
+
                 <form id="callback-form">
                     <div class="row">
                         <div class="col-5 pr-0 d-flex flex-column">
                             <input data-rule="name" id="callback-name" placeholder="Как вас зовут?">
-                            <p id="callback-name-error">Имя должно содержать более двух символов</p>
+                            <p class="name-error">Имя должно содержать более двух символов</p>
                             <input data-rule="number" id="callback-number" placeholder="Ваш номер телефона">
-                            <p id="callback-number-error">Номер должен содержать 11 цифр</p>
+                            <p class="number-error">Номер должен содержать 11 цифр</p>
                             <input data-rule="email" type="email" id="callback-email" placeholder="Ваш Email">
-                            <p id="callback-email-error">Некорректно введена почта</p>
+                            <p class="email-error">Некорректно введена почта</p>
                         </div>
                         <div class="col-12 p-0">
                             <button type="submit" class="callback-btn btn d-flex justify-content-center align-items-center ml-3">Отправить</button>
                         </div>
                     </div>
                 </form>
+
+
+
             </div>
         </div>
     </section>
@@ -691,23 +697,20 @@
             <div class="col-lg col-12 consultation-item consultation-item-form">
                 <h4>Хотите получить консультацию</h4>
                 <p class="consultation-item-form-text">Или записать на замер</p>
-                <form action="#" class=" d-flex flex-column">
-                    <input placeholder="Ваше имя" class="mb-4">
-                    <input placeholder="Ваш номер" class="mb-5">
-                    <button class="consultation-btn btn m-auto">Отправить заявку</button>
+
+
+                <form action="#" id="consultation-form" class="d-flex flex-column">
+                    <input data-rule="name" id="consultation-name" placeholder="Ваше имя" class="mb-3">
+                    <p class="name-error">Имя должно содержать более двух символов</p>
+                    <input data-rule="number" id="consultation-number" placeholder="Ваш номер" class="mb-3">
+                    <p class="number-error">Номер должен содержать 11 цифр</p>
+                    <button class="consultation-btn btn" type="submit">Отправить заявку</button>
                 </form>
+
+
             </div>
         </div>
     </section>
-    <div class="w-100 consultation-item consultation-item-form consultation-item-form-mobile d-none">
-        <h4>Хотите получить консультацию</h4>
-        <p class="consultation-item-form-text">Или записать на замер</p>
-        <form action="#" class=" d-flex flex-column">
-            <input placeholder="Ваше имя" required class="mb-4">
-            <input placeholder="Ваш номер" required class="mb-5">
-            <button class="consultation-btn btn" type="submit">Отправить заявку</button>
-        </form>
-    </div>
     <footer class="footer container-fluid d-flex justify-content-center" id="footer">
         <div class="row footer-item-wrapper">
             <div class="col footer-item">
